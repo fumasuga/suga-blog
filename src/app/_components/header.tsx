@@ -12,9 +12,8 @@ export default function Header() {
         <div className="flex flex-row">
           <h1 className="text-3xl md:text-6xl font-bold tracking-tighter leading-tight mb-0">
             <Link href="/" className="hover:underline">
-              Bonji Tech
+              Suga Blog
             </Link>
-            .
           </h1>
           <ThemeSwitcher />
         </div>

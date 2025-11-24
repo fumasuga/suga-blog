@@ -86,12 +86,6 @@ export function PostsList({ posts }: Props) {
 
   return (
     <section className="px-[5%] md:px-[10%]">
-      <div className="hidden md:block text-center">
-        <p className="text-gray-500 mb-4">
-          “Bonji” means “ordinary things“ in Japanese.
-          I usually post what I have learned.
-        </p>
-      </div>
       {hasKeyword && !hasResult && (
         <div className="text-center text-gray-500 py-8">
           <p>No posts found for "<strong>{keyword}</strong>".</p>

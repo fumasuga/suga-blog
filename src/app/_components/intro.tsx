@@ -12,7 +12,7 @@ export function Intro() {
       <div className="flex flex-row justify-between ml-2 border-b pb-2 mb-2">
         <div className="flex flex-row">
           <h1 className="text-3xl md:text-6xl font-bold tracking-tighter leading-tight mb-0">
-            Bonji Tech.
+            Suga Blog
           </h1>
           <ThemeSwitcher />
         </div>
